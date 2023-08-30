@@ -26,13 +26,7 @@ function calculator(operation, num1, num2) {
         return "(?)";
     }
 }
-
-console.log("+: ", calculator('+', "abcd", 3));
-console.log("+: ", calculator('+', 10, 3));
-console.log("-: ", calculator('-', 16, 5));
-console.log("*: ", calculator('*', 3, 2));
-console.log("/: ", calculator('/', 5, 5));
-console.log("?: ", calculator('kali', 5, 10));
+console.log(`Hasil dari : ${num1} ${operation} ${num2} = ${calculator(operation, num1, num2)}`);
 
 
 console.log("");
